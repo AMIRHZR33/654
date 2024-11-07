@@ -1,0 +1,13 @@
+R = float(input("enter R"))
+A = math.pi * (R **2)
+print(" area is",A)
+
+
+num1 = float(input("enter num1"))
+num2 = float(input("enter num2"))
+total = num1 + num2
+if total<=20:
+print("مجموع کمتر از 20 عدد جدید وارد کنید")
+else:
+    print(total)
+    break
